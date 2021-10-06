@@ -1,0 +1,8 @@
+{
+  "@teqfw/di": {
+    "autoload": {
+      "ns": "Sw_Control",
+      "path": "./src"
+    }
+  }
+}

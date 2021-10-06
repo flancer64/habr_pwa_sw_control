@@ -1,0 +1,14 @@
+{
+  "base": {
+    "title": "PWA: SW Control"
+  },
+  "widget": {
+    "home": {
+      "btnReplace": "Replace",
+      "btnRestore": "Restore",
+      "replaceCat": "Cat",
+      "replaceDog": "Dog",
+      "title": "Select image to replace to:"
+    }
+  }
+}

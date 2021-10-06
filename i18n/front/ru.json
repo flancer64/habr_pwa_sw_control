@@ -1,0 +1,14 @@
+{
+  "base": {
+    "title": "PWA: SW Контроль"
+  },
+  "widget": {
+    "home": {
+      "btnReplace": "Заместить",
+      "btnRestore": "Восстановить",
+      "replaceCat": "Кот",
+      "replaceDog": "Пёс",
+      "title": "Выберите картинку для замещения:"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "@flancer64/habr_pwa_sw_control",
+  "version": "0.1.0",
+  "description": "Habr: SW control",
+  "homepage": "https://bwl.wiredgeese.com/",
+  "bugs": {
+    "url": "https://github.com/flancer64/habr_pwa_sw_control/issues",
+    "email": "alex@flancer32.com"
+  },
+  "license": "GPL-3.0-only",
+  "author": {
+    "name": "Alex Gusev",
+    "email": "alex@flancer64.com",
+    "url": "https://github.com/flancer64"
+  },
+  "repository": "github:flancer64/habr_pwa_sw_control",
+  "scripts": {
+    "help": "node ./bin/tequila.mjs -h",
+    "rebuild": "rm -fr node_modules package-lock.json && npm install",
+    "start": "node ./bin/tequila.mjs http2-server-start",
+    "start-http1": "node ./bin/tequila.mjs web-server-start",
+    "startup-logs": "node ./bin/tequila.mjs core-startup-logs alexg",
+    "stop": "node ./bin/tequila.mjs http2-server-stop",
+    "stop-http1": "node ./bin/tequila.mjs web-server-stop",
+    "test": "./node_modules/mocha/bin/mocha --require esm --recursive './test/**/*.test.js'",
+    "version": "node ./bin/tequila.mjs core-version"
+  },
+  "dependencies": {
+    "@teqfw/http2": "*",
+    "@teqfw/i18n": "*",
+    "@teqfw/ui-quasar": "*"
+  },
+  "devDependencies": {}
+}
