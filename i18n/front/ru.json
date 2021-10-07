@@ -6,6 +6,7 @@
     "home": {
       "btnReplace": "Заместить",
       "btnRestore": "Восстановить",
+      "loadingTitle": "URL загружаемой картинки:",
       "replaceCat": "Кот",
       "replaceDog": "Пёс",
       "title": "Выберите картинку для замещения:"

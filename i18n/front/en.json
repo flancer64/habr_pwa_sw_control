@@ -6,6 +6,7 @@
     "home": {
       "btnReplace": "Replace",
       "btnRestore": "Restore",
+      "loadingTitle": "URL for loading image:",
       "replaceCat": "Cat",
       "replaceDog": "Dog",
       "title": "Select image to replace to:"
